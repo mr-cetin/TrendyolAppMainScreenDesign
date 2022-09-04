@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A9FFCEE28C418C300CA9D22 /* HizmetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9FFCED28C418C300CA9D22 /* HizmetCollectionViewCell.swift */; };
+		3A9FFCF028C41AB600CA9D22 /* Hizmetler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9FFCEF28C41AB600CA9D22 /* Hizmetler.swift */; };
+		3A9FFCF428C439C400CA9D22 /* TrendyolGoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9FFCF328C439C400CA9D22 /* TrendyolGoVC.swift */; };
+		3A9FFCF628C43A0F00CA9D22 /* FavorilerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9FFCF528C43A0F00CA9D22 /* FavorilerVC.swift */; };
+		3A9FFCF828C43A2600CA9D22 /* SepetimVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9FFCF728C43A2600CA9D22 /* SepetimVC.swift */; };
+		3A9FFCFA28C43A3600CA9D22 /* HesabımVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9FFCF928C43A3600CA9D22 /* HesabımVC.swift */; };
+		3AF71DBC28C3A9CF003B67AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF71DBB28C3A9CF003B67AF /* AppDelegate.swift */; };
+		3AF71DBE28C3A9CF003B67AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF71DBD28C3A9CF003B67AF /* SceneDelegate.swift */; };
+		3AF71DC028C3A9CF003B67AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF71DBF28C3A9CF003B67AF /* ViewController.swift */; };
+		3AF71DC328C3A9CF003B67AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF71DC128C3A9CF003B67AF /* Main.storyboard */; };
+		3AF71DC528C3A9D0003B67AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF71DC428C3A9D0003B67AF /* Assets.xcassets */; };
+		3AF71DC828C3A9D0003B67AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF71DC628C3A9D0003B67AF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A9FFCED28C418C300CA9D22 /* HizmetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HizmetCollectionViewCell.swift; sourceTree = "<group>"; };
+		3A9FFCEF28C41AB600CA9D22 /* Hizmetler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hizmetler.swift; sourceTree = "<group>"; };
+		3A9FFCF328C439C400CA9D22 /* TrendyolGoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendyolGoVC.swift; sourceTree = "<group>"; };
+		3A9FFCF528C43A0F00CA9D22 /* FavorilerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavorilerVC.swift; sourceTree = "<group>"; };
+		3A9FFCF728C43A2600CA9D22 /* SepetimVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetimVC.swift; sourceTree = "<group>"; };
+		3A9FFCF928C43A3600CA9D22 /* HesabımVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HesabımVC.swift"; sourceTree = "<group>"; };
+		3AF71DB828C3A9CF003B67AF /* TrendyolDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrendyolDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF71DBB28C3A9CF003B67AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AF71DBD28C3A9CF003B67AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3AF71DBF28C3A9CF003B67AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AF71DC228C3A9CF003B67AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AF71DC428C3A9D0003B67AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AF71DC728C3A9D0003B67AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AF71DC928C3A9D0003B67AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AF71DB528C3A9CF003B67AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AF71DAF28C3A9CF003B67AF = {
+			isa = PBXGroup;
+			children = (
+				3AF71DBA28C3A9CF003B67AF /* TrendyolDesign */,
+				3AF71DB928C3A9CF003B67AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AF71DB928C3A9CF003B67AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AF71DB828C3A9CF003B67AF /* TrendyolDesign.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AF71DBA28C3A9CF003B67AF /* TrendyolDesign */ = {
+			isa = PBXGroup;
+			children = (
+				3AF71DBB28C3A9CF003B67AF /* AppDelegate.swift */,
+				3AF71DBD28C3A9CF003B67AF /* SceneDelegate.swift */,
+				3AF71DBF28C3A9CF003B67AF /* ViewController.swift */,
+				3A9FFCF328C439C400CA9D22 /* TrendyolGoVC.swift */,
+				3A9FFCF528C43A0F00CA9D22 /* FavorilerVC.swift */,
+				3A9FFCF728C43A2600CA9D22 /* SepetimVC.swift */,
+				3A9FFCF928C43A3600CA9D22 /* HesabımVC.swift */,
+				3A9FFCED28C418C300CA9D22 /* HizmetCollectionViewCell.swift */,
+				3A9FFCEF28C41AB600CA9D22 /* Hizmetler.swift */,
+				3AF71DC128C3A9CF003B67AF /* Main.storyboard */,
+				3AF71DC428C3A9D0003B67AF /* Assets.xcassets */,
+				3AF71DC628C3A9D0003B67AF /* LaunchScreen.storyboard */,
+				3AF71DC928C3A9D0003B67AF /* Info.plist */,
+			);
+			path = TrendyolDesign;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AF71DB728C3A9CF003B67AF /* TrendyolDesign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AF71DCC28C3A9D0003B67AF /* Build configuration list for PBXNativeTarget "TrendyolDesign" */;
+			buildPhases = (
+				3AF71DB428C3A9CF003B67AF /* Sources */,
+				3AF71DB528C3A9CF003B67AF /* Frameworks */,
+				3AF71DB628C3A9CF003B67AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrendyolDesign;
+			productName = TrendyolDesign;
+			productReference = 3AF71DB828C3A9CF003B67AF /* TrendyolDesign.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AF71DB028C3A9CF003B67AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3AF71DB728C3A9CF003B67AF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3AF71DB328C3A9CF003B67AF /* Build configuration list for PBXProject "TrendyolDesign" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AF71DAF28C3A9CF003B67AF;
+			productRefGroup = 3AF71DB928C3A9CF003B67AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AF71DB728C3A9CF003B67AF /* TrendyolDesign */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AF71DB628C3A9CF003B67AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF71DC828C3A9D0003B67AF /* LaunchScreen.storyboard in Resources */,
+				3AF71DC528C3A9D0003B67AF /* Assets.xcassets in Resources */,
+				3AF71DC328C3A9CF003B67AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AF71DB428C3A9CF003B67AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9FFCF028C41AB600CA9D22 /* Hizmetler.swift in Sources */,
+				3AF71DC028C3A9CF003B67AF /* ViewController.swift in Sources */,
+				3A9FFCFA28C43A3600CA9D22 /* HesabımVC.swift in Sources */,
+				3A9FFCF828C43A2600CA9D22 /* SepetimVC.swift in Sources */,
+				3A9FFCEE28C418C300CA9D22 /* HizmetCollectionViewCell.swift in Sources */,
+				3A9FFCF628C43A0F00CA9D22 /* FavorilerVC.swift in Sources */,
+				3AF71DBC28C3A9CF003B67AF /* AppDelegate.swift in Sources */,
+				3AF71DBE28C3A9CF003B67AF /* SceneDelegate.swift in Sources */,
+				3A9FFCF428C439C400CA9D22 /* TrendyolGoVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3AF71DC128C3A9CF003B67AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AF71DC228C3A9CF003B67AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AF71DC628C3A9D0003B67AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AF71DC728C3A9D0003B67AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AF71DCA28C3A9D0003B67AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AF71DCB28C3A9D0003B67AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AF71DCD28C3A9D0003B67AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SC3JSQP8FB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrendyolDesign/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrecetin.TrendyolDesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AF71DCE28C3A9D0003B67AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SC3JSQP8FB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrendyolDesign/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emrecetin.TrendyolDesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AF71DB328C3A9CF003B67AF /* Build configuration list for PBXProject "TrendyolDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AF71DCA28C3A9D0003B67AF /* Debug */,
+				3AF71DCB28C3A9D0003B67AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AF71DCC28C3A9D0003B67AF /* Build configuration list for PBXNativeTarget "TrendyolDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AF71DCD28C3A9D0003B67AF /* Debug */,
+				3AF71DCE28C3A9D0003B67AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AF71DB028C3A9CF003B67AF /* Project object */;
+}
